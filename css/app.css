@@ -1,0 +1,10 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(231, 231, 216);
+  color: rgb(5, 22, 102);
+  text-align: center;
+}
