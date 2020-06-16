@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div style={style}>
+    <div className='nav-bar'>
       <Link href='/'>
         <a>Home</a>
       </Link>
@@ -15,15 +15,3 @@ export default function NavBar() {
     </div>
   );
 }
-const style = {
-  //   width: "100%",
-  height: "30px",
-  margin: "0px",
-  padding: "2px 1.2rem",
-  backgroundColor: "red",
-  color: "white",
-  display: "flex",
-  alignItem: "center",
-  textAlign: "center",
-  justifyContent: "space-around",
-};

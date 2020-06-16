@@ -2,6 +2,7 @@ import React from "react";
 import App from "next/app";
 import NavBar from "../components/NavBar";
 import "../css/app.css";
+import "../css/navBar.css";
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {

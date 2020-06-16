@@ -1,24 +1,16 @@
-import React from "react";
+// import React from "react";
 import Link from "next/link";
 import axios from "axios";
-import Comment from "./comment";
+// import backgroundImg from "../img/Bird.jpg";
+
 export default function Index({ post }) {
+  post = post.filter((p) => p.id <= 10);
   return (
-    <div>
+    <div className='container'>
       <ul>
         {post.map((p) => (
-          <li
-            key={p.id}
-            style={{
-              border: "1px solid #22f4f4",
-              margin: "10px",
-              padding: "10px",
-              color: "black",
-              width: "80%",
-              margin: "auto",
-            }}
-          >
-            <Link href={`/comment?id=${p.id}`} as={`/p?${p.id}`}>
+          <li key={p.id} className='post-card'>
+            <Link href={`/comment?id=${p.id}`}>
               <a>
                 <h3>{p.title}</h3>
               </a>
@@ -27,6 +19,12 @@ export default function Index({ post }) {
           </li>
         ))}
       </ul>
+      <style jsx global>
+        {`
+         
+          }
+        `}
+      </style>
     </div>
   );
 }

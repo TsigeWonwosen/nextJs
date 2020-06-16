@@ -13,6 +13,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/About": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -23,10 +27,6 @@
     ],
     "/_polyfills": [
       "static/runtime/polyfills.js"
-    ],
-    "/comment": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ],
     "/index": [
       "static/runtime/webpack.js",
