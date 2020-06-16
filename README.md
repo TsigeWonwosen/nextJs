@@ -4,15 +4,15 @@
 
 # Quick Start
 
-> # Install dependencies
+> ### Install dependencies
 >
 > npm install
 
-> # Server on localhost:3000
+> ### Server on localhost:3000
 >
 > npm run dev
 >
-> # Build for production
+> ### Build for production
 
 ## Author
 
